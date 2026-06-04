@@ -7,6 +7,11 @@ cask "fader" do
   desc "Per-app volume and one-click audio output switching in the menu bar"
   homepage "https://fader.pantafive.dev"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on macos: ">= :sequoia"
 
   app "Fader.app"
