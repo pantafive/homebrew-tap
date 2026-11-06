@@ -1,6 +1,6 @@
 cask "fader" do
-  version "0.22.0"
-  sha256 "f990ee3d0268bc7caf29e63ce6ebcf3c0230044418bb603b92c5a09975a62c85"
+  version "0.22.1"
+  sha256 "76de5df26cb92eb216e379b69907c1a947a12b3f393267bc060b31259de73a13"
 
   url "https://github.com/pantafive/fader/releases/download/v#{version}/Fader-#{version}.dmg"
   name "Fader"
